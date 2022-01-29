@@ -1,0 +1,25 @@
+.menu {  
+  height: 56px;
+  width: 100%;
+  background-color: white;
+  /* display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right; */
+}
+  
+.menu-item {
+  color: #878B8E;
+  font-size: 16px;
+  margin: 60px;
+  width: 3%;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color:black;
+
+}
+li{
+  list-style: none;
+}
