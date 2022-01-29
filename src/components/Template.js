@@ -1,6 +1,6 @@
 import React from "react";
 import "./Template.css";
-
+import image from "./homeoffice.jpg"
 import { IoEarth } from 'react-icons/io5';
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -9,7 +9,11 @@ const Template = () => {
     return (
         <div style={{paddingTop:"56px"}}>
             <div className ="template">
-                <div className="home">
+                <div className="home" style={{overflowX:'hidden'}}>
+
+                        <img style={{height:"90%", overflowX:"hidden"}} src={image}>
+                        </img>
+            
                     <div style={{position: "absolute",left: "50%",top: "50%", transform: "translate(-50%,-50%)"}}>
                         <div style={{fontSize:"55px", fontWeight:"bold", textAlign:"center", paddingBottom:"10px", color:"#262626"}}>
                             Juyeon Nam 
